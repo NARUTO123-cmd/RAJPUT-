@@ -20,7 +20,7 @@ from telethon.errors import (
 )
 from telethon.sessions import StringSession
 
-TOKEN    = "8849726697:AAEdCRihv9rh1BicjdY8qiXNBzGpxCVU2nQ"
+TOKEN    = "8914308922:AAHvtdGXJ1tHmJhl3fm3y7II1bnpGL-xK3o"
 OWNER_ID = 8758092321
 API_ID   = 36167293
 API_HASH = "bd3d079dbd782500d57b6063ca33a9fe"
