@@ -6,8 +6,8 @@ from telegram.ext import Application, CallbackQueryHandler, CommandHandler, Cont
 
 # APNI DETAILS YAHAN CODE MEIN BHARO — Railway Variables zaroori nahi.
 # BOT_TOKEN ko public GitHub repository mein upload/share mat karna.
-BOT_TOKEN = "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE"
-OWNER_ID = 123456789  # Is number ko apni numeric Telegram user ID se badlo
+BOT_TOKEN = "8954438874:AAHmsruBC7R7-e2iJaGgOVT1c-XKkIOfJgI"
+OWNER_ID = 8758092321  # Is number ko apni numeric Telegram user ID se badlo
 
 # Agar Railway Variables set kiye hain, to woh in values par priority lenge.
 BOT_TOKEN = os.getenv("BOT_TOKEN", BOT_TOKEN)
