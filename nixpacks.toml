@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ["python311", "nodejs_20", "nodePackages.npm"]
+
+[phases.install]
+cmds = [
+  "pip install -r requirements.txt",
+  "npm install --legacy-peer-deps",
+  "ln -sf $(which node) /usr/local/bin/node || true",
+  "ln -sf $(which npm) /usr/local/bin/npm || true"
+]
+
+[start]
+cmd = "python bot.py"
